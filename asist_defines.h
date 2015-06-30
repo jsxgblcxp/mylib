@@ -25,4 +25,6 @@
 #define RETURN_INT_IF_(x,y,z)    if((x)){(y);return (z);}
 #define RETURN_INT_IF_NOT_(x,y,z)    if(!(x)){(y);return (z);}
 
+#define RETURN_IF_NULL(pointer)  if((pointer)==NULL){ return ;}
+
 #endif // ASIST_DEFINES_H_
