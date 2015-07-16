@@ -1,3 +1,6 @@
+#ifndef MY_LIB_TIME_TOOL_H
+#define MY_LIB_TIME_TOOL_H
+
 #include "time.h"
 #include <string>
 
@@ -15,3 +18,5 @@ std::string what_time_is_it()
            	  p_current_time->tm_mday );
 	return std::string( tmp_str );
 }
+
+#endif //MY_LIB_TIME_TOOL_H 
