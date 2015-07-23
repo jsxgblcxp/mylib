@@ -52,4 +52,6 @@
 #define EXIT_IF_NOT(x,y) 		if(false==(x)) {fprintf( stderr , "%s:%d \n" , __FILE__ , __LINE__ );exit(y);}
 #define EXIT_IF_NOT_(x,y,z) 		if(false==(x)) {(y);fprintf( stderr , "%s:%d \n" , __FILE__ , __LINE__ );exit(z);} 
 
+#define DO_NOTHING()
+
 #endif // ASIST_DEFINES_H_
