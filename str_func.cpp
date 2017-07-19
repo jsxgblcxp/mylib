@@ -33,6 +33,6 @@ std::string str_join( std::vector< std::string > vecStr , char IPS = ' ' )
 
         std::string res = vecStr[ 0 ];
         for ( size_t i = 1 ; i < vecStr.size() ; ++ i )
-                res += IPC + vecStr[ i ];
+                res += IPS + vecStr[ i ];
         return res;
 }
